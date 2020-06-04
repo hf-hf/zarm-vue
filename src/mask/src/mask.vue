@@ -29,6 +29,7 @@ export default {
   },
   methods: {
     handleClick(event) {
+      alert("handleClick")
       this.$emit('mask-close', event);
     },
   },

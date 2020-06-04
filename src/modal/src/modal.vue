@@ -160,6 +160,7 @@ export default {
       }, this.animationDuration);
     },
     onMaskClose(event) {
+      console.log("onMaskClose")
       if (!this.closeOnClickModal) return;
       // clear autoClose timer
       if (this.timer) {
